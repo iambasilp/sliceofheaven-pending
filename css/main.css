@@ -374,6 +374,116 @@ input.input100 {
 .bor2 {
   border-radius: 5px;
 }
+/*=============== FOOTER ===============*/
+.footer {
+  color: white;
+  position: relative;
+  padding-block: 3rem 2rem;
+  overflow: hidden;
+}
+.footer__container {
+  row-gap: 3rem;
+}
+.footer__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--title-font);
+  font-family: var(--title-font);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+}
+.footer__logo img {
+  width: 25px;
+}
+.footer__logo:hover {
+  color: var(--first-color);
+}
+.footer__description,
+.footer__link,
+.footer__information {
+  font-size: var(--small-font-size);
+}
+.footer__content,
+.footer__links {
+  display: grid;
+}
+.footer__content {
+  grid-template-columns: repeat(5,1fr);
+  gap: 2.5rem;
+}
+.footer__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.5rem;
+}
+.footer__links {
+  row-gap: 0.5rem;
+}
+.footer__link {
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+.footer__link:hover {
+  color: var(--first-color);
+}
+.footer__social {
+  display: flex;
+  column-gap: 1.25rem;
+}
+.footer__social-link {
+  font-size: 1.25rem;
+  color: var(--first-color);
+  transition: color 0.3s, transform 0.3s;
+}
+.footer__social-link:hover {
+  color: var(--first-color-alt);
+  transform: translateY(-0.25rem);
+}
+.footer__onion,
+.footer__spinach {
+  width: 30px;
+  position: absolute;
+}
+.footer__onion {
+  top: 7.5rem;
+  right: 5rem;
+  transform: rotate(-45deg);
+}
+.footer__spinach {
+  bottom: 8rem;
+  left: 3rem;
+  transform: rotate(30deg);
+}
+.footer__leaf {
+  position: absolute;
+  opacity: 0.2;
+  width: 80px;
+  bottom: 6rem;
+  right: -2rem;
+  transform: rotate(-15deg);
+}
+.footer__info,
+.footer__card {
+  display: flex;
+}
+.footer__info {
+  margin-top: 6.5rem;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.footer__card {
+  column-gap: 1rem;
+  justify-content: center;
+}
+.footer__card img {
+  width: 35px;
+}
+.footer__copy {
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
 
 
 /*==================================================================
